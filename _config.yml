@@ -10,7 +10,8 @@ user_description: "Hi, my name is Shoshanna. I'm a software developer with a pas
 I've earned a certificate in UX design and research from General Assembly, and a Bachelor's degree 
 in Software Development from Western Governors University."
 user_title: Software Developer
-email: anon@anon.com
+# using Apple's Hide My Email feature for security
+email: corncob_teatime_0d@icloud.com
 github_username: shoshannaTM
 gplus_username: lorem_ipsum
 
