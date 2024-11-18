@@ -6,11 +6,11 @@ url: "https://shoshannatm.dev" # the base hostname & protocol for your site e.g.
 
 # User settings
 username: Shoshanna Thomas-McCue
-user_description: "Hi, my name is Shoshanna. I'm a software developer with a passion for UX design. 
-I've earned a certificate in UX design and research from General Assembly, and a Bachelor's degree 
-in Software Development from Western Governors University."
+user_description: "Hi, I'm Shoshanna. I'm certified in UX Design and Research and hold a Bachelor of
+ Science in Software Development. I'm passionate about building intuitive software that makes a positive
+ impact on those who use it."
+
 user_title: Software Developer
-# using Apple's Hide My Email feature for security
 email: contact@shoshannatm.dev
 github_username: shoshannaTM
 
