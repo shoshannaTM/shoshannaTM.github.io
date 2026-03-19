@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   new SweetScroll({/* some options */});
 
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS('particles-js', {
+  /* particlesJS disabled */
+  if (false) particlesJS('particles-js', {
     "particles": {
       "number": {
         "value": 30,
