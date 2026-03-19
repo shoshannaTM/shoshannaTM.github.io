@@ -9,6 +9,11 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  @media only screen and (max-width: $cut) {
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
   .particles-js-canvas-el {
     width:100% !important;
     height:100vh !important;
