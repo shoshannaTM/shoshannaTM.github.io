@@ -7,10 +7,9 @@
 body {
   font-family: 'Lato', sans-serif;
   background: #c8c8c8;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  margin: 20px;
 }
 
 /* ===== PAGE ===== */
@@ -249,4 +248,42 @@ section {
   font-size: 10px;
   padding-left: 14px;
   line-height: 1.6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 651px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .resume {
+    transform-origin: top center;
+    transform: scale(0.9);
+    margin-bottom: -79px;
+  }
+}
+
+@media (max-width: 550px) {
+  .resume {
+    transform: scale(0.78);
+    margin-bottom: -174px;
+  }
+}
+
+@media (max-width: 450px) {
+  .resume {
+    transform: scale(0.66);
+    margin-bottom: -269px;
+  }
+}
+
+@media (max-width: 380px) {
+  .resume {
+    transform: scale(0.54);
+    margin-bottom: -364px;
+  }
 }
