@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #c8c8c8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* ===== PAGE ===== */
+.resume {
+  width: 612px;
+  min-height: 792px;
+  background: #fff;
+  font-size: 10px;
+  line-height: 1.4;
+  color: #000;
+}
+
+/* ===== HEADER ===== */
+.header {
+  width: 612px;
+  height: 108px;
+  background: #142C53;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-contact {
+  position: absolute;
+  left: 45px;
+  top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 14px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.contact-item a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.contact-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.header-name {
+  position: absolute;
+  left: 274px;
+  top: 14px;
+  width: 304px;
+  color: #fff;
+  text-align: right;
+}
+
+.header-name h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.header-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1px;
+}
+
+.header-location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+  margin-top: 5px;
+}
+
+.header-location span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.loc-icon {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+/* ===== BODY LAYOUT ===== */
+.body-content {
+  display: flex;
+  padding: 21px 40px 20px 43px;
+  gap: 19px;
+}
+
+.left-col {
+  width: 206px;
+  flex-shrink: 0;
+}
+
+.right-col {
+  width: 304px;
+  flex-shrink: 0;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  margin-bottom: 14px;
+}
+
+.section-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 3px;
+  margin-bottom: 7px;
+  line-height: 1.1;
+}
+
+/* ===== PROFESSIONAL SUMMARY ===== */
+.summary {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+  font-size: 10px;
+}
+
+.skills dt {
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.skills dt:first-child {
+  margin-top: 0;
+}
+
+.skills dd {
+  margin-left: 0;
+  line-height: 1.4;
+}
+
+/* ===== FEATURED PROJECTS ===== */
+.projects {
+  list-style: none;
+  font-size: 10px;
+}
+
+.projects li {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.proj-icon-svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.proj-icon-img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* ===== EXPERIENCE ===== */
+.job {
+  margin-bottom: 11px;
+}
+
+.job-title {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.job-meta {
+  font-size: 10px;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.job ul {
+  padding-left: 13px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.job ul li {
+  margin-bottom: 4px;
+}
+
+/* ===== EDUCATION ===== */
+.edu-entry {
+  margin-bottom: 10px;
+}
+
+.edu-degree {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.edu-school {
+  font-size: 10px;
+}
+
+.edu-date {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.edu-note {
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.edu-certs {
+  font-size: 10px;
+  padding-left: 14px;
+  line-height: 1.6;
+}
